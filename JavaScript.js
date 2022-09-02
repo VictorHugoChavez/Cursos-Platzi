@@ -21,3 +21,45 @@ false-3; //-3
 //HTML, CSS, JS
 // WA ya no requiere tanto productos web
 //Backend- FrontEnd
+//number
+//String
+//Boolean
+//null
+//undefiend
+//[Array]
+//{Objeto
+//typeof me muestra el tipo de valor dentro de Javascript
+//typeof null     ------ object
+//typeof undefiend   ------ undefiend
+// typeof []  -------------- object
+
+var nombre="Osacar";  // ------>Reseva en memoria
+var edad; // Declaracion de una variables
+edad=30; // inicializar
+
+var elementos=[ "Computadora", "Celular"];
+var persona={
+nombre:"Diego",
+edad:30
+}
+//Funciones
+//Declarativas
+function miFunction(){
+  return 3;
+}
+
+
+//Expresion
+miFunction();
+var miFunction=function(a,b){
+  return a+b;
+}
+
+miFunction();
+
+//Scope
+//Variables Locales y globales
+//Hosting
+//Cuando las variables y funciones se declaran antes del codigo
+
+//*  *//
