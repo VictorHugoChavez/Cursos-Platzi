@@ -209,6 +209,6 @@ EXPORTAR MODULO -> export default functionName;
    
    NODEJS INICIALIZA PORYECTI-> NMP INIT
 
-   
-   
+   EMACSCRIPT8
+   Object Entries
    
