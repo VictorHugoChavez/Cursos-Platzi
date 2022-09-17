@@ -61,3 +61,7 @@ Las ramas sirven principalmente para no afectar a la rama maestra.
 
 Actualizando varios datos dentro de main
 y tambien lo nuevo aprenidendo de git
+Realizando unas pruebas automaticas de ramas
+
+
+HOla soy la nueva rama
