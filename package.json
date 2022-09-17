@@ -1,0 +1,27 @@
+{
+    "name": "cursos-platzi",
+    "version": "1.0.0",
+    "description": "Aqui se encontraran",
+    "main": "asincronismo.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VictorHugoChavez/Cursos-Platzi.git"
+    },
+    "keywords": [
+        "Javascript"
+    ],
+    "author": "Victor Hugo",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/VictorHugoChavez/Cursos-Platzi/issues"
+    },
+    "homepage": "https://github.com/VictorHugoChavez/Cursos-Platzi#readme",
+    "dependencies": {
+        "node-fetch": "^3.2.10",
+        "xmlhttprequest": "^1.8.0"
+    },
+    "type": "module"
+}
