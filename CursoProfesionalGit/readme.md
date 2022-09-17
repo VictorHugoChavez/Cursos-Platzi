@@ -59,3 +59,5 @@ Las ramas sirven principalmente para no afectar a la rama maestra.
 * **git merge** : unse mi rama a lo que es mi rama que quiero que se una como master 
 
 
+Actualizando varios datos dentro de main
+y tambien lo nuevo aprenidendo de git
