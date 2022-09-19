@@ -160,3 +160,8 @@ promise2
 promise1
 promise4
 promise3
+
+function f(x, y = 2, z = 3) {
+    return x + y + z;
+}
+console.log(f(1, 3, 6) === 10)
