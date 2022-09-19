@@ -58,12 +58,4 @@ Las ramas sirven principalmente para no afectar a la rama maestra.
 
 * **git merge** : unse mi rama a lo que es mi rama que quiero que se una como master 
 
-
-Actualizando varios datos dentro de main
-y tambien lo nuevo aprenidendo de git
-Realizando unas pruebas automaticas de ramas
-
-
-HOla soy la nueva rama
-
-Subiendo de nivel dentro de git
+Cunaod creemos de un local a la nube y queremos vincular puede surgir un error como **fatal: refusing to merge unrelated hitories** , se puede corregir con  **git pull origin main --allow-unrelated-histories**
