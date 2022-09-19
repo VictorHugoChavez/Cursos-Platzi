@@ -201,3 +201,8 @@ export class BBComponent extends LitElement {
         `;
     }
 }
+
+function f(x, y = 2, z = 3) {
+    return x + y + z;
+}
+comsole.log(f(1, 3, 6) === 10)
