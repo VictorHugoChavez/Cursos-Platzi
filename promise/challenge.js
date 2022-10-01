@@ -18,7 +18,7 @@ fecthData(`${API}/products`)
 
 const promise1 = () => {
     return new Promise((resolve, reject) => {
-        setTimeout(() => reject("promise1"), 10000);
+        setTimeout(() => resolve("promise1"), 10000);
     });
 };
 const promise2 = () => {
@@ -27,10 +27,9 @@ const promise2 = () => {
     });
 };
 
-promise2().then((result) => {
-    console.log(result);
-    promise1().then((result) => console.log(result));
-});
+promise1().then((result) => console.log(result));
+promise2().then((result) => console.log(result));
+
 
 const employe = {
     firstName: "Pedro",
@@ -102,6 +101,14 @@ console.log(nuevoDirector);
 const nuevoDirector = {...director };
 director.name = "Antonio Jaimes";
 console.log(nuevoDirector);
+
+const writeer = {
+    name: 'Juan Rulfo',
+    country: 'Mexico'
+}
+const anothe = {...writeer };
+writeer.name = "Mariano Azuela"
+console.log(anothe);
 
 const arreglo = [1, 2, 3, 4];
 const arreglo2 = [10, 16, 20, 21];
@@ -206,3 +213,47 @@ function f(x, y = 2, z = 3) {
     return x + y + z;
 }
 comsole.log(f(1, 3, 6) === 10)
+
+var a = [1, 2, 3];
+a[10] = 10;
+console.log(a.length);
+
+
+let mascotas = ["perro", "gato", "pez", "canario"];
+mascotas.filter(mascota => mascota.length >= 1);
+console.log(mascotas);
+
+let condicion1, resultado, condicion2;
+condicion1 = 2 > 8;
+condicion2 = 8 > 2;
+
+resultado = !condicion1 || !condicion2;
+console.log(resultado)
+
+const array = [21, 13, 34, 26, 3, 5];
+const foundNumber = array.map(number => number > 20);
+console.log(foundNumber)
+
+let arr = [0, 1, 2, 3, 4, 5]
+console.log(arr.at(-1));
+
+const employee = {
+    name: 'john',
+    age: 30,
+}
+const street = employee.address.street;
+console.log(street)
+
+let arr = [isNaN(20), isNaN('20'), isNaN(undefined), isNaN(null), isNaN('5e-3'), isNaN('hola')]
+console.log(arr);
+
+
+bdsnfbdf
+
+
+jfhdjfshkjfds
+fkajfdklfd
+dasewr
+
+fhgdfgskjfd
+assmbdfnfbdmnfb
