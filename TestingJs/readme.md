@@ -43,7 +43,7 @@ Haciendo pruebas se maneja el riesgo
 * Pruebas
 * Producción
 
-El momento y pruebas dependen de la fase en la que se encuentra la compañía:
+El momento y pruebas dependen de la fase en la que se encuentra la compañía
 
 1. Tracción : lanza y no importa mucho el testing
 2. Inflexión : llenamos sistemas de monitoreo, con las pruebas
