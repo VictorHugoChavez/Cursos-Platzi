@@ -1,3 +1,7 @@
+# TESTING JS
+
+![TESTINGJS](https://blog.testproject.io/wp-content/uploads/2020/10/Top-Essential-JavaScript-Testing-Frameworks.png)
+
 # Que es el Testing en Javascript
 
 En el mundo actual las tecnologias con las que vivimos necesitan codigo, esto ha hecho que el desarrollo de software se haya vuelto industrial, donde contamos con procesos y herramientas, como el testing, que nos permiten entregar mas rapido proyectos de calidad a nuestros clientes reduciendo el riesgo de errores en produccion.
