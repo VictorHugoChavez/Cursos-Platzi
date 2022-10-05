@@ -181,6 +181,34 @@ dandonos como resultado en nuestro terminal
 
 ## Segundo ejercicio de Testing
 
-Para el siguinete ejemplo se debe crear dos archivos con los siguientes
+Para el siguinete ejemplo se debe crear un archivo donde contenga el siguinete codigo
 
-``````
+```javascript
+function suma(a, b) {
+    return a + b;
+}
+
+function multipli(a, b) {
+    return a * b;
+}
+
+function divide(a, b) {
+    return a / b;
+}
+
+module.exports = {
+    suma,
+    multipli,
+    divide
+};
+```
+despues agregar otro archivo en donde se creo el antiguo archivo llamandolo con la extencion **.test.js** y dentro de este archivo se debe agregar el siguiente codigo
+
+```javascript
+const { suma, multipli, divide } = require('./math.js');
+
+test("Se coloca el mensaje como ejemplo adds 1 + 3 slould be 4", () => {
+    const resulta = suma(1, 3);
+    expect(resulta).toBe(4)
+})
+```
