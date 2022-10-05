@@ -178,3 +178,9 @@ npm run test
 dandonos como resultado en nuestro terminal
 
 ![terminal-test](../img/terminal-test.png)
+
+## Segundo ejercicio de Testing
+
+Para el siguinete ejemplo se debe crear dos archivos con los siguientes
+
+``````
