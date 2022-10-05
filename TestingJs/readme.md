@@ -212,4 +212,4 @@ test("Se coloca el mensaje como ejemplo adds 1 + 3 slould be 4", () => {
     expect(resulta).toBe(4)
 })
 ```
-al tener ambos archivos se debe ejecutar el comando **npm run test**
+al tener ambos archivos se debe ejecutar el comando **npm run test** a.
