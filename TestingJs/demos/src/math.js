@@ -3,6 +3,9 @@ function suma(a, b) {
 }
 
 function multipli(a, b) {
+    if (b === 0) {
+        return null;
+    }
     return a * b;
 }
 

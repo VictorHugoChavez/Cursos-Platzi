@@ -212,4 +212,40 @@ test("Se coloca el mensaje como ejemplo adds 1 + 3 slould be 4", () => {
     expect(resulta).toBe(4)
 })
 ```
-al tener ambos archivos se debe ejecutar el comando **npm run test** a.
+al tener ambos archivos se debe ejecutar el comando **npm run test**.
+
+Correr el siguinete codigo en el archivo de test y ver el resultado en terminal.
+
+```javascript
+test("Testing de la funcion de multiplicar", () => {
+    const resulta = multipli(8, 3);
+    expect(resulta).toBe(24)
+})
+
+test("Testing de la funcion de dividir ", () => {
+    const resulta = divide(10, 5);
+    expect(resulta).toBe(2)
+})
+
+test("Funcion con error de testing", () => {
+    const resulta = suma(3, 1);
+    expect(resulta).toBe(6)
+})
+```
+
+Dentro del testing tambien se pueden hacer varias pruebas dentro de una funcion para descubrir  futuros escenarios dentro de mi codigo que nosotros podemos contemplar, como por ejemplo:
+
+```javascript
+test("Testing de la funcion de dividir, varios escenarios", () => {
+    const resultado1 = divide(10, 5);
+    expect(resultado1).toBe(2)
+    const resultado2 = divide(1, 4);
+    expect(resultado2).toBe(0.25)
+    const resultado3 = divide(9, 2);
+    expect(resultado3).toBe(4.5)
+})
+```
+
+
+
+
